@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hibr apt repository</title>
+<style>
+:root { --bg: #fdfdfb; --fg: #1d1f21; --muted: #5c6166; --code: #f1f1ee; --line: #dddcd6; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #16181b; --fg: #e6e6e3; --muted: #9a9fa5; --code: #22262a; --line: #33383d; }
+}
+body { background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, sans-serif; margin: 0; }
+main { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+p.lead { color: var(--muted); margin-top: 0; }
+h2 { font-size: 1.1rem; margin-top: 2rem; }
+pre { background: var(--code); border: 1px solid var(--line); border-radius: 6px; padding: .8rem 1rem; overflow-x: auto; font-size: .88rem; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+a { color: inherit; }
+td { padding: .2rem 1rem .2rem 0; vertical-align: top; }
+</style>
+</head>
+<body>
+<main>
+<h1>hibr apt repository</h1>
+<p class="lead">Debian and Ubuntu packages of <a href="https://github.com/osakka/hibr">hibr</a>, a small, fast shell that runs the bash you already write.</p>
+
+<h2>Install</h2>
+<pre><code>curl -fsSL https://osakka.github.io/hibr-apt/hibr.gpg \
+  | sudo tee /usr/share/keyrings/hibr.gpg &gt; /dev/null
+echo "deb [signed-by=/usr/share/keyrings/hibr.gpg] https://osakka.github.io/hibr-apt stable main" \
+  | sudo tee /etc/apt/sources.list.d/hibr.list
+sudo apt update
+sudo apt install hibr</code></pre>
+<p><code>apt upgrade</code> keeps it current. Then <code>man hibr</code>, or start with
+<a href="https://github.com/osakka/hibr/blob/main/docs/tutorial.md">From bash to hibr, in ten minutes</a>.</p>
+
+<h2>What there is</h2>
+<table>
+<tr><td>architectures</td><td>amd64 (arm64 to follow)</td></tr>
+<tr><td>needs</td><td>glibc 2.34 or later: Debian 12, Ubuntu 22.04, or newer</td></tr>
+<tr><td>installs</td><td><code>/usr/bin/hibr</code>, modules in <code>/usr/lib/hibr</code>, <code>man hibr</code>, the text desktop</td></tr>
+</table>
+
+<h2>The signing key</h2>
+<pre><code>hibr apt repository (signs https://github.com/osakka/hibr-apt) &lt;osakka@gmail.com&gt;
+fingerprint A1E3 CA78 8A8F B020 52DA  22B4 1303 5BE1 B167 4431</code></pre>
+<p>Check it after downloading: <code>gpg --show-keys /usr/share/keyrings/hibr.gpg</code>.
+The same key as text: <a href="hibr.asc">hibr.asc</a>.</p>
+</main>
+</body>
+</html>
