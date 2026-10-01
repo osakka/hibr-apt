@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Thu, 01 Oct 2026 11:36:20 +0000
+Description: hibr, a small, fast shell
+Label: hibr
+Origin: hibr
+Suite: stable
+MD5Sum:
+ 10a5ea9e55ae3dfa0d638ea568b877aa             1167 main/binary-amd64/Packages
+ 4e92284be3b855e81952c176cdd8ae80              777 main/binary-amd64/Packages.gz
+SHA1:
+ 737169be633aafd4a016fac3828fbfa50d0d7426             1167 main/binary-amd64/Packages
+ ba558729cb1fac7d6f74a31f59465d06a3d95d9b              777 main/binary-amd64/Packages.gz
+SHA256:
+ 9dae8156d9e583269976cb91683f8eb04e8d8fd9aed65d01556422876dc8dc2a             1167 main/binary-amd64/Packages
+ cce4c3cc98dd31062198fcc075e7b04d67a2025f1af922ae3c640be9382987f3              777 main/binary-amd64/Packages.gz
+SHA512:
+ dbec3e42f0c177a1fe024752399cf2021c752a533ed2f963b062575f611e612b883c0345e0f2efd592905c1362f78f78bdec4241fe3af515ee347ad057e516a4             1167 main/binary-amd64/Packages
+ 918be69e1258c4c7b5bbaf922ee3f81727036b7156866d275f77299d9655b9b9862b34f0ff5535688eb92e778e6b79e1f2db47a3557bd8b608696996ae6d208d              777 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEoePKeIqPsCBS2iK0EwNb4bFnRDEFAmq+RbQACgkQEwNb4bFn
+RDFMwhAAl6pZHY0y9ipuy2s6fBdjJzGtz3lhOIF1Tgo2zr/aX8YcydaddTd0/zDO
+g6coCUk8wh4S2xSPRnNccvWIW+NhZ+fz5ReZy1JaYzgM2eZwx0t65w/bawSAiQIh
+xnVNOqosoXBm7UX/epwFkZm9XN+50nLY4bX3k+sOKP6+saXlzaChn3U0v//wLhLp
+gwXHY7tZgEQnRln3kVLvMESy2V9apLKMRZTsF0n1dIUMhl2tTrNipGeIZq94+qj6
+NfEI6CV4TuH4+QypKBOVT7wJyQaD1PuTwQv8GB3rSF1hJS+2K/m2Uep5wMx6DsKt
+jyQQyPnHG/G/Qb0XFfJSgoCe7gi4M//tIZU48QfFFWK8ZrYT/jJTGU6sAC0Rpi8Q
+Vn1T3jivj3czwWipjTCXTMbL3hs9a9br6LCc64Jnev3osKFXj1XT08EZki0bP02+
+te45JdCAkGZJUfBIao6PpweRBR2i+pKvG85bzzsX9qHXNuqLlCW2QBQNcp5TWHsN
+1HuJhA6V95ljJAxnyefz7V8p+lZRR4cYfiHL5Uh0mk4Kl9bO82oOCR8ypPUIrjhj
+He/ttiEqOMCQa/yqJKSqBizxNlLxT5nRsXMJWbNeZrs8pVbXvMaYxKULq0uItdm/
+wnHkc4nPO2gLPbquKNIXBM3Jt39Pn2aJCIMzzbgtFr/NHSnSCtk=
+=6Wze
+-----END PGP SIGNATURE-----
