@@ -21,6 +21,29 @@ Description: libretro frontend for hibr, with the DOSBox Pure core
  runs DOS games. The applications that use it, boxer (a shelf of games)
  and boxerplay, come from the hibr catalogue: catalogue install boxer.
 
+Package: hibr-retro
+Architecture: amd64
+Version: 0.1.1-1
+Priority: optional
+Section: games
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 3004
+Depends: hibr (>= 0.99.270), libc6 (>= 2.34), libstdc++6, libgcc-s1
+Suggests: libpulse0 | libasound2 | libasound2t64
+Filename: pool/main/h/hibr/hibr-retro_0.1.1-1_amd64.deb
+Size: 1209448
+MD5sum: 253f2316534af26dd205f6e3ba25f57e
+SHA1: 1cdea90223026066aae5db3bdd84388662ba0899
+SHA256: 6d9aea909eaa475560eaefb6e57d0eb2d9e704e564efc9edc17ac48c42214911
+SHA512: a58cce71d61047b89dcc7f50eec981a6b1c51fcbf8ac99e22cde44e3441b89ee0cfde89502109c91901e5631d16d8555a25abcba4f8fa81c2798edb4ee9069a0
+Homepage: https://git.home.arpa/itdlabs/hibr-boxer
+Description: libretro frontend for hibr, with the DOSBox Pure core
+ The retro module runs a libretro core inside hibr's own shell and draws
+ its picture with hibr's renderer: pixels where the terminal takes them,
+ half blocks where it does not. The package brings DOSBox Pure, which
+ runs DOS games. The applications that use it, boxer (a shelf of games)
+ and boxerplay, come from the hibr catalogue: catalogue install boxer.
+
 Package: hibr
 Architecture: amd64
 Version: 0.71-1
