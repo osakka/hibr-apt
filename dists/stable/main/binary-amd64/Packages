@@ -178,6 +178,36 @@ Description: web browser for the hibr desktop, on WPE WebKit
  .
  The module is built for hibr module ABI 16.
 
+Package: hibr-browser
+Architecture: amd64
+Version: 0.1.2-1
+Priority: optional
+Section: web
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 163196
+Depends: hibr (>= 0.99.299), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatomic1 (>= 4.8), libc6 (>= 2.35), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.10.0), libglib2.0-0 (>= 2.70.0), libgpg-error0 (>= 1.14), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.22.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), liblcms2-2 (>= 2.2+git20110628), libpng16-16 (>= 1.6.2-1), libseccomp2 (>= 0.0.0~20120605), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.8.7), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwebp7 (>= 1.2.4), libwebpdemux2 (>= 1.2.4), libwebpmux3 (>= 1.2.4), libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.11.dfsg), libgles2, libegl1, bubblewrap, xdg-dbus-proxy, fonts-liberation, fonts-dejavu-core
+Recommends: gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-libav, gstreamer1.0-alsa
+Suggests: pipewire-pulse | pulseaudio
+Filename: pool/main/h/hibr-browser/hibr-browser_0.1.2-1_amd64.deb
+Size: 40451752
+MD5sum: 16a4e641a5391060d067dcb8d532d939
+SHA1: 3cf51aff2f8d00e5be375f9ab0ebecf7fdbba1b9
+SHA256: 709d85298df72fa8015e0400e98f930ea6f1e38b54b6e3133c158cfefc5d18d2
+SHA512: 1ea42befe1478f22e1d20feed748c50d1343be9fe74307bf47667fb33b46bf342619b98ff58f0a9e39e9bab417d60db65c909f5990ec5b77235aaff61c603ff8
+Homepage: https://git.home.arpa/itdlabs/hibr-browser
+Description: web browser for the hibr desktop, on WPE WebKit
+ The engine of hibr's Browser app and a module that gives hibr the `web`
+ verbs over it: WPE WebKit 2.54.1, built from upstream, running headless in a
+ helper process of its own (no GTK, no X, no Wayland), with JavaScript, a
+ JIT, WebAssembly and media source playback. Pages are drawn as pixels,
+ as cells, or as text.
+ .
+ It is WebKit, not Chrome: no Widevine, no Chrome extensions or sync. The
+ Browser app and its settings come from the catalogue
+ (`catalogue install apps/browser`), not from this package.
+ .
+ The module is built for hibr module ABI 16.
+
 Package: hibr-retro
 Architecture: amd64
 Version: 0.1.0-1
