@@ -11417,19 +11417,19 @@ Description: layer-2 mesh VPN engine for hibr, with post-quantum handshakes
 
 Package: longwire
 Architecture: amd64
-Version: 0.6.0-1
+Version: 0.5.1-1
 Priority: optional
 Section: net
 Maintainer: osakka <osakka@gmail.com>
 Installed-Size: 724
 Depends: libc6 (>= 2.25), hibr (>= 0.99.315)
 Recommends: ca-certificates
-Filename: pool/main/l/longwire/longwire_0.6.0-1_amd64.deb
-Size: 167416
-MD5sum: 1d175c850c484f59e8f793e73fd401de
-SHA1: b4c2d63bae2f58ceb6825d8176dfc1065feffb36
-SHA256: 28c1555ee389fe7d9b7b9974784a618a0b34a5f47fcc7d2429ef3035ef2ffb77
-SHA512: 1e81ce9cdca0dc3d2e6c7387273fa2199ecdd951829eae296ee296927bc23e4a8d67f211a8a5e6514c0798a2072c85cc7a83913db2446546631341a2393b0a07
+Filename: pool/main/l/longwire/longwire_0.5.1-1_amd64.deb
+Size: 168016
+MD5sum: 448ddeb58b2c96368228ae97bf0ca657
+SHA1: 6d42bc5414059b3a87994cd16293d3930f11d99d
+SHA256: b11da1ebdd2cfd2fa1036b1fbe14a79532489ea2a24819ae01784b78e3d25361
+SHA512: 6317b09ffa794b8ec5b703fb6d9808f80d6452a0923bd72fa07597e8fa92fa6e687e1c7fc0fec0e6d866fb6cf04d2b70d4d09aa266f58b69349815e24fed8fd9
 Description: layer-2 mesh VPN engine for hibr, with post-quantum handshakes
  longwire joins sites, and single machines, into one Ethernet segment over
  the Internet. You dial a number; a tiny switchboard introduces two nodes,
