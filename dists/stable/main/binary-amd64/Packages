@@ -9847,6 +9847,36 @@ Description: small, fast shell that runs the bash you already write
 
 Package: hibr
 Architecture: amd64
+Version: 0.99.368-1
+Priority: optional
+Section: shells
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 5596
+Depends: libc6 (>= 2.35)
+Recommends: libpng16-16t64 | libpng16-16, libturbojpeg0
+Suggests: libssl3 | libssl1.1, libargon2-1, libavformat62 | libavformat61 | libavformat60 | libavformat59, xvfb, libpoppler-glib8
+Filename: pool/main/h/hibr/hibr_0.99.368-1_amd64.deb
+Size: 1806352
+MD5sum: 09f5178e62722e55169b04ce31933fa8
+SHA1: c18fbcbaf5fdd855aaece79a6dbac5a44302aa5a
+SHA256: 4c4ec656a6cfc9ccce0488ef38ed658335f7fc3d3afbba448734e1d0bd9285f6
+SHA512: 2f45d6d8713169de11f7eeab773539583e9777920bc4e350cbf0e273d1b69c1b26ce266840e8c49eaea1a1d73622ad5a5f3e622ca05b2f5982e13421827cd9b1
+Homepage: https://github.com/osakka/hibr
+Description: small, fast shell that runs the bash you already write
+ hibr runs a large subset of bash -- variables, quoting, functions,
+ pipelines, redirections, arrays, traps, job control -- in a small, fast
+ binary, and adds nested maps, JSON that keeps its types, regex capture,
+ typed function signatures, results returned without a fork, declared
+ command-line arguments, native TCP, TLS and Unix sockets, and modules
+ loaded on demand. It includes a lint (--explain), a dry run (--plan), an
+ agent mode, and a text-mode desktop with its own apps.
+ .
+ The desktop here is everything that manages or reports on it and
+ nothing that opens anything of yours: the applications come from the
+ catalogue, and `catalogue install apps/` fetches all of them at once.
+
+Package: hibr
+Architecture: amd64
 Version: 0.99.37-1
 Priority: optional
 Section: shells
