@@ -1014,6 +1014,24 @@ Description: Hibrid UI Plymouth boot theme
  ASCII characters assemble the Hibrid UI badge, resolve into blocks, and
  sharpen into Blit's canonical hui glyph.
 
+Package: hibr-plymouth-theme
+Architecture: all
+Version: 0.2.0
+Priority: optional
+Section: misc
+Maintainer: itdlabs <osakka@gmail.com>
+Depends: plymouth (>= 0.9.4), plymouth-label
+Filename: pool/main/h/hibr-plymouth-theme/hibr-plymouth-theme_0.2.0_all.deb
+Size: 471772
+MD5sum: aee89a64eced811a30f346be2879065a
+SHA1: f774f5407e506504f2ecdeaa1077e1e6a95659d6
+SHA256: d310757fdb6f57948dc727ccd4e4af51843ad894711a89445ad8d434a1d152dc
+SHA512: b27fb9f0b3c3fc0156e0e4a111dfa0c518247860473faae38f92883fb1c8e240041442d6bce13009e9b46b95de823c4f271d17f9b7578ee3d177482c1224c90c
+Homepage: https://git.home.arpa/itdlabs/hibr-plymouth-theme
+Description: Hibrid UI Plymouth boot theme
+ ASCII characters assemble the Hibrid UI badge, resolve into blocks, and
+ sharpen into Blit's canonical hui glyph.
+
 Package: hibr-retro
 Architecture: amd64
 Version: 0.1.3-1
