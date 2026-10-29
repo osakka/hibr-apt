@@ -1,0 +1,18 @@
+Package: hibr-plymouth-theme
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: misc
+Maintainer: itdlabs <osakka@gmail.com>
+Depends: plymouth (>= 0.9.4)
+Filename: pool/main/h/hibr-plymouth-theme/hibr-plymouth-theme_0.1.0_all.deb
+Size: 58840
+MD5sum: 831599177a5073bebc2fd28680ac2583
+SHA1: 9131a0eb09c9b9e110ca0e9ba99ffbb6e2aceffc
+SHA256: e648d9c7d2753ec5de42e4c4fd2b67518f900d686a54315c686dbbf16b277b16
+SHA512: 68cb69c4b9cdd1854ce03ca2b65eee0d3a76daf72fcf773cceea5492ebd6a340f0f4ae0e68fb1d5d74d6ca87d7478ca85842871db9165b5988136e56c7688a92
+Homepage: https://git.home.arpa/itdlabs/hibr-plymouth-theme
+Description: Hibrid UI Plymouth boot theme
+ ASCII characters assemble the Hibrid UI badge, resolve into blocks, and
+ sharpen into Blit's canonical hui glyph.
+
