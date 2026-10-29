@@ -618,6 +618,26 @@ Description: API-driven native KMS text display server
  Hibr is kept as an explicit external integration because its package and
  desktop session are maintained separately.
 
+Package: blit
+Architecture: amd64
+Version: 0.3.9-1
+Priority: optional
+Section: misc
+Maintainer: ITD Labs <itdlabs@localhost>
+Depends: libc6, libdrm2, zlib1g, libfreetype6 (>= 2.12.1), libharfbuzz0b (>= 6.0.0)
+Suggests: hibr
+Filename: pool/main/b/blit/blit_0.3.9-1_amd64.deb
+Size: 24433832
+MD5sum: 5d1366853c1d0b11ca501d814aa75bed
+SHA1: 439d9477cb3ce40f326368306e3d9392073084a3
+SHA256: 01c2aa82ecd83ee9a2d612078be38bebdd16cfd0412aae764ec374c76555c13f
+SHA512: 4c4d5ba4c7729f2b2182c7682258463e7f286ffb658898d285ad86cdc4c9086b6283b107d908818df3a90c0e806e85bf2961d52a200919b6a8afdd462474201d
+Description: API-driven native KMS text display server
+ Blit provides a text-first display server with one terminal surface per
+ physical display or pane, HTTP control, streaming, and Hibr integration.
+ Hibr is kept as an explicit external integration because its package and
+ desktop session are maintained separately.
+
 Package: hibr-browser
 Architecture: amd64
 Version: 0.1.0-1
