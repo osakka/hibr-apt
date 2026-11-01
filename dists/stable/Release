@@ -1,32 +1,32 @@
 Architectures: all amd64
 Codename: stable
 Components: main
-Date: Sun, 01 Nov 2026 15:54:54 +0000
+Date: Sun, 01 Nov 2026 16:58:32 +0000
 Description: hibr, a small, fast shell
 Label: hibr
 Origin: hibr
 Suite: stable
 MD5Sum:
- 1fc96894e52200613c61d31b2b1071e1             2377 Release
+ b11b6ace2aa2b94b3c31a7c542c4fc60             2377 Release
  ff28476485324324600d0b7f3833baae             2338 main/binary-all/Packages
  c21aa25fc7ed8ae87816fa45c6fdb3a7              915 main/binary-all/Packages.gz
- 5d160c601ac997f3836d76b506b7ad15           779751 main/binary-amd64/Packages
- 3b966b131dde1bfccde74ba2b3bd96f6           109704 main/binary-amd64/Packages.gz
+ 1b03bdd95a6db39488e533656d8c24ec           781307 main/binary-amd64/Packages
+ 584b1e16e3a07c1763e17ae773567135           109890 main/binary-amd64/Packages.gz
 SHA1:
- c4d326d3bffe8ad851231b02b3d162c82b990a19             2377 Release
+ 1549ede58338bf9f13ff3f40dadc2f4474e0029e             2377 Release
  e12608beb1760db423aa9152b076d57727cba191             2338 main/binary-all/Packages
  762e544212a70cad458be77f9e195622f129f3b6              915 main/binary-all/Packages.gz
- 00fec10e90e953f328d47af8bfeff411d6e16407           779751 main/binary-amd64/Packages
- 5064e8e8da59eafc51ce8a9fe72c0c2a2fbc79e1           109704 main/binary-amd64/Packages.gz
+ 9e21cbd2c32af229f3ca6fd45a6b4e2f3ced8a37           781307 main/binary-amd64/Packages
+ 3acf6b73ecc11ff08d259eae142ad4e283da44c1           109890 main/binary-amd64/Packages.gz
 SHA256:
- 1f25096ee6e9069960cfdd974574ce591d4cdaea099e6d46b8d828db3b36ac60             2377 Release
+ e846d95801729b677ce9dcb7986221a7cd558d47f0113d6cbe12d94f5821df2e             2377 Release
  d4faf4b457e714fba9993f4074c54e9a758c5c628f27883ca656a7f6fc75d9fc             2338 main/binary-all/Packages
  b528a7dcdcb6db122115936349c3f30d07d503b2bb4706e92fd9f07585330b99              915 main/binary-all/Packages.gz
- b749ec9acc6eda56a639e34e53fed346d00ca5a0572f7cba34ca41abb3579e74           779751 main/binary-amd64/Packages
- 67e1699fcb5b621f361f83c4e415ade32c4739e9fbd27557dde203dd419c37a0           109704 main/binary-amd64/Packages.gz
+ f81c7b9ea203429308166f529a99e0cabd134e61cdd34c83c9e2fd18f581d112           781307 main/binary-amd64/Packages
+ de2c23dde7e4bb3e63cdea29647ad47cce1c5455933ce68269e89ecf69b041b3           109890 main/binary-amd64/Packages.gz
 SHA512:
- c6d2748c346465a2f87851eba612c190e1b5e5885d9a3833850af75dcebc6d208c4157c202a5aebb871ff84c0dba68e8d026b65e831c7ad8a44c0c9d7d5e219d             2377 Release
+ 1ea05302ad3fbf9ae32e4c6a9e8c8893a18f87c3794c8379dcdbceac3b4eff8dcb7a88e6b8615302c1674f66f7a137bff94ef8a7c839790ba4f7fb096176b4dc             2377 Release
  0a7c83bfa8752f1beabe0f72e1ce19fd8c8bc82716043edbfa279d8b7e972707037f8bfa8313b5aee965d62a2275b28a6cf1cbc31ad46ca9b82c6a6ec73f33a0             2338 main/binary-all/Packages
  5358718113c142829bcaaa5e315a2de300f75f8ae63bbcc6ca7b5eb9ab13ac6d87bc80473bb583374a9d55a9d4133121404555e0dd706c2edcf7f07f4940738d              915 main/binary-all/Packages.gz
- afc524e21095a05734c89cfce57d47571c816fbaa689ead87fbf50b275ec4ae8093048df5c48f904ef90f706a4f21a3bebcabc1783b472c5a528b1e96c2084a7           779751 main/binary-amd64/Packages
- dbbb5e806c45ae1cd7fa4bfe70344ddd77ab5de6c9515e2a5a8ed99e586961dda7be30a0d284e8a1e84e08feaf977a1829f32410389f1ea3ab6b360b368ecfc4           109704 main/binary-amd64/Packages.gz
+ 38f946341d6d47b79b764b211f830f5420a692a7f6f9c952860cf4807bfadb6a06efcdb218bfaa17e70193b591caf7f96bd11f73dc8354486edd85d401ac1629           781307 main/binary-amd64/Packages
+ c658b3e3a4f00939b80e5bcb225a13dbc8c4f8017ea1d95a865127105d889313f7c3f2af6c7a80469b9e7f6d642f3653f2441b7d3e206a3dbe61248f678b35bb           109890 main/binary-amd64/Packages.gz
