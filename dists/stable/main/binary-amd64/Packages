@@ -17826,3 +17826,28 @@ Description: layer-2 mesh VPN engine for hibr, with post-quantum handshakes
  scripts, longwire and longwire-switchboard, come from hibr's catalogue:
  `catalogue install cli/longwire cli/longwire-switchboard`.
 
+Package: wiretap
+Architecture: amd64
+Version: 0.1.0-1
+Priority: optional
+Section: net
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 252
+Depends: libc6 (>= 2.33), hibr (>= 0.99.430)
+Recommends: systemd
+Filename: pool/main/w/wiretap/wiretap_0.1.0-1_amd64.deb
+Size: 46464
+MD5sum: fac038dfcb82bd0611c6d4d50e42c267
+SHA1: 6d384757b1e358924b18bae8d390a22210036ffc
+SHA256: ff00298add405f3ea2d8bb1fb0b12d0bf608b508a637f18114914cf3108ed04e
+SHA512: 08b4fd41f9f71a736a830c94bb668931d22404f1c117649f3759cde27cb32c848e26ff3a4240a4d5083fa52604cd9b48e05ed25fd7aa1234cc26b2c54542ac78
+Description: network monitor for the hibr desktop: see every byte, per app
+ wiretap shows what your machine sends and receives: live graphs, the
+ busiest apps, history over a minute to a week, on the hibr desktop (a
+ drop-down on the menu bar, a Control Panel pane, a Control Strip module and
+ a window) and on the command line. A service counts the interface traffic,
+ captures packets read-only and joins each flow to the program that owns it.
+ .
+ This package is the engine (a hibr module), the launcher and the service.
+ The scripts come from hibr's catalogue: `catalogue install wiretap`.
+
