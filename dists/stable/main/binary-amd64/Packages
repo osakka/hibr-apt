@@ -17898,6 +17898,32 @@ Description: layer-2 mesh VPN engine for hibr, with post-quantum handshakes
 
 Package: longwire
 Architecture: amd64
+Version: 0.5.54-1
+Priority: optional
+Section: net
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 1132
+Depends: libc6 (>= 2.25), hibr (>= 0.99.430)
+Recommends: ca-certificates, pkexec | policykit-1, iproute2
+Suggests: isc-dhcp-client | dhcpcd-base | udhcpc, acl, nftables
+Filename: pool/main/l/longwire/longwire_0.5.54-1_amd64.deb
+Size: 275244
+MD5sum: d61b77c738fc5a4952e3c83cf9b44a28
+SHA1: 086b32eea40b5fea038464f4c91c3d31f9f7560f
+SHA256: 37ef13d314d78aec6bfa131540439c22d907a1fbd6a4e007d9435432f19ae0f5
+SHA512: 0feb9d513b39bedb4cc5b92d5714a08799c8fab924ed10ce20b2eca60afd2af97febcb443cedaedc57ed7e15ec57e7410aa16de34b69434a8ba0939ac298696e
+Description: layer-2 mesh VPN engine for hibr, with post-quantum handshakes
+ longwire joins sites, and single machines, into one Ethernet segment over
+ the Internet. You dial a number; a tiny switchboard introduces two nodes,
+ they punch through their NATs and talk directly, and the switchboard drops
+ out of the data path. The handshake is hybrid X25519 and ML-KEM-768.
+ .
+ This package is the engine (a hibr module) and the launchers. The two
+ scripts, longwire and longwire-switchboard, come from hibr's catalogue:
+ `catalogue install cli/longwire cli/longwire-switchboard`.
+
+Package: longwire
+Architecture: amd64
 Version: 0.5.6-1
 Priority: optional
 Section: net
