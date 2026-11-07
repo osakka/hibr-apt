@@ -18830,3 +18830,28 @@ Description: network monitor for the hibr desktop: see every byte, per app
  This package is the engine (a hibr module), the launcher and the service.
  The scripts come from hibr's catalogue: `catalogue install wiretap`.
 
+Package: wiretap
+Architecture: amd64
+Version: 0.5.0-1
+Priority: optional
+Section: net
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 384
+Depends: libc6 (>= 2.33), hibr (>= 0.99.430)
+Recommends: systemd, nftables
+Filename: pool/main/w/wiretap/wiretap_0.5.0-1_amd64.deb
+Size: 70796
+MD5sum: c16ec5498e413459918334cb82384565
+SHA1: eea5a2ece845ad449823eb30e43fe342bbe88bdc
+SHA256: fe43a5c6588542ca90c0e477d0fda12daf6b9150f9a8df2c07e746216e1d99ea
+SHA512: b7bf8c1fd557857abef4a743f6a20e22beb92ec31db0655bc8089b9be45632a9201409a75653c67d7f2f275711de5b5e829ca2106529ad7e250c9f2fb10221cd
+Description: network monitor for the hibr desktop: see every byte, per app
+ wiretap shows what your machine sends and receives: live graphs, the
+ busiest apps, history over a minute to a week, on the hibr desktop (a
+ drop-down on the menu bar, a Control Panel pane, a Control Strip module and
+ a window) and on the command line. A service counts the interface traffic,
+ captures packets read-only and joins each flow to the program that owns it.
+ .
+ This package is the engine (a hibr module), the launcher and the service.
+ The scripts come from hibr's catalogue: `catalogue install wiretap`.
+
