@@ -110,6 +110,25 @@ Description: Games and Steam in a Blit window through a headless gamescope
  Blit's frame channel, keyboard and mouse sent by Blit to gamescope's EIS
  socket (ADR 0225). On Debian 13 gamescope comes from trixie-backports.
 
+Package: blit-gamescope
+Architecture: amd64
+Version: 0.3.71-1
+Priority: optional
+Section: games
+Maintainer: ITD Labs <itdlabs@localhost>
+Depends: blit (= 0.3.71-1), libc6, libpipewire-0.3-0, libei1, gamescope
+Filename: pool/main/b/blit-gamescope/blit-gamescope_0.3.71-1_amd64.deb
+Size: 94388
+MD5sum: 0a94380be986279f1dddb079f67637fd
+SHA1: 99c569fbc5cd64f2773f868a0ad39e445a43382a
+SHA256: c4a3441ea6e4221f2452089c9fa05061bfffc9f44b55e203f984eda9306a4c80
+SHA512: b8d0200e2297249aa93859bd4d760229a0ce1f68fc706952616c48df10bfa3b923f5fc190d11e7a0710cf3967e8335593ec1457578b368c268ee4c98e85023bc
+Description: Games and Steam in a Blit window through a headless gamescope
+ blit-gamescope runs a game or Steam under gamescope's headless backend and
+ shows it in a Blit pane or a Hibr desktop window: frames by dmabuf over
+ Blit's frame channel, keyboard and mouse sent by Blit to gamescope's EIS
+ socket (ADR 0225). On Debian 13 gamescope comes from trixie-backports.
+
 Package: blit
 Architecture: amd64
 Version: 0.2.14-1
@@ -1924,6 +1943,26 @@ MD5sum: 7d460991636858e44959ca2e55f89fab
 SHA1: 53f1e9f5d0747cdc6a67a2811853395d193f7a50
 SHA256: eba3430e396f89f504bbe732a7082a249eb1ad8b6c78f83136d6a9339796e125
 SHA512: f4d44acf70200c98bdafc400f607d5efd4a3f096a53506f9703f23ec8c4c614fdf6363e6a7404a764e9b95a1b227bf0e42f5934451375032d2044cbabfd51801
+Description: API-driven native KMS text display server
+ Blit provides a text-first display server with one terminal surface per
+ physical display or pane, HTTP control, streaming, and Hibr integration.
+ Hibr is kept as an explicit external integration because its package and
+ desktop session are maintained separately.
+
+Package: blit
+Architecture: amd64
+Version: 0.3.71-1
+Priority: optional
+Section: misc
+Maintainer: ITD Labs <itdlabs@localhost>
+Depends: libc6, libdrm2, zlib1g, libfreetype6 (>= 2.12.1), libharfbuzz0b (>= 6.0.0)
+Suggests: hibr, blit-font-sources, blit-gamescope
+Filename: pool/main/b/blit/blit_0.3.71-1_amd64.deb
+Size: 17377048
+MD5sum: 47c45fb81ec4e2c770be89539c3af68f
+SHA1: 9de9c563e673a0074cebd2ac32ef18e9872bb7a9
+SHA256: 0e3e1e14c09cc6c572f99fb9849c7c6ca6db43ebfbe1915fac908558d1f22859
+SHA512: 67c33ec9912c0ad91329140413e0a19efcb9d673666472d5fa16d8f07d567896959be109661f5ad8c8189f94a6bbfd6303c928a0fe6a36dedca5e21857fa5457
 Description: API-driven native KMS text display server
  Blit provides a text-first display server with one terminal surface per
  physical display or pane, HTTP control, streaming, and Hibr integration.
