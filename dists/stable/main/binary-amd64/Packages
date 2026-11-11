@@ -372,38 +372,6 @@ Description: libretro frontend for hibr, with the DOSBox Pure core
 
 Package: hibr
 Architecture: amd64
-Version: 0.99.484-1
-Priority: optional
-Section: shells
-Maintainer: osakka <osakka@gmail.com>
-Installed-Size: 6404
-Depends: libc6 (>= 2.35)
-Recommends: libpng16-16t64 | libpng16-16, libturbojpeg0, pkexec
-Suggests: libssl3 | libssl1.1, libargon2-1, libavformat62 | libavformat61 | libavformat60 | libavformat59, xvfb, libpoppler-glib8, blit-compositor (>= 0.3.74)
-Conflicts: pleaser
-Breaks: hibr-retro (<< 0.1.8), hibr-browser (<< 0.5.29), longwire (<< 0.5.40), blit (<< 0.3.74)
-Filename: pool/main/h/hibr/hibr_0.99.484-1_amd64.deb
-Size: 2041856
-MD5sum: 201a12d3057f46175711d85d4e6cb649
-SHA1: a79472addd875597248b2ce502031a52444cc07b
-SHA256: 77b14a1a005e1bc6bf0c3fae7a35540df19a2ad341ce2e4c9acea1519b0cf5dd
-SHA512: edcda0e1aa90e21bc9b7d285345b1a48f9d83143ece43858cfa921facbe11987e0c4b59dd96fcc81176d6f0995efb58293d2a61525bbf868462e46535b414f36
-Homepage: https://github.com/osakka/hibr
-Description: small, fast shell that runs the bash you already write
- hibr runs a large subset of bash -- variables, quoting, functions,
- pipelines, redirections, arrays, traps, job control -- in a small, fast
- binary, and adds nested maps, JSON that keeps its types, regex capture,
- typed function signatures, results returned without a fork, declared
- command-line arguments, native TCP, TLS and Unix sockets, and modules
- loaded on demand. It includes a lint (--explain), a dry run (--plan), an
- agent mode, and a text-mode desktop with its own apps.
- .
- The desktop here is everything that manages or reports on it and
- nothing that opens anything of yours: the applications come from the
- catalogue, and `catalogue install apps/` fetches all of them at once.
-
-Package: hibr
-Architecture: amd64
 Version: 0.99.485-1
 Priority: optional
 Section: shells
@@ -452,6 +420,38 @@ MD5sum: cdfd1768ac528efcb11304116fd9e908
 SHA1: 71f830b8e6d87c6f55f675a1f5ec9942f8a6f505
 SHA256: c44d74f6a3d945abfbe6a06de6b519cd7005c8447f99fcf60213b8df458df382
 SHA512: 025a8376e40ab42c217d65de0e05edd0da9233926e21490569146949c2cced50bc57b05c7ff8fc333284c88eaecc4ec72414031d7a2b1d7cdbdd935bea12db36
+Homepage: https://github.com/osakka/hibr
+Description: small, fast shell that runs the bash you already write
+ hibr runs a large subset of bash -- variables, quoting, functions,
+ pipelines, redirections, arrays, traps, job control -- in a small, fast
+ binary, and adds nested maps, JSON that keeps its types, regex capture,
+ typed function signatures, results returned without a fork, declared
+ command-line arguments, native TCP, TLS and Unix sockets, and modules
+ loaded on demand. It includes a lint (--explain), a dry run (--plan), an
+ agent mode, and a text-mode desktop with its own apps.
+ .
+ The desktop here is everything that manages or reports on it and
+ nothing that opens anything of yours: the applications come from the
+ catalogue, and `catalogue install apps/` fetches all of them at once.
+
+Package: hibr
+Architecture: amd64
+Version: 0.99.487-1
+Priority: optional
+Section: shells
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 6416
+Depends: libc6 (>= 2.35)
+Recommends: libpng16-16t64 | libpng16-16, libturbojpeg0, pkexec
+Suggests: libssl3 | libssl1.1, libargon2-1, libavformat62 | libavformat61 | libavformat60 | libavformat59, xvfb, libpoppler-glib8, blit-compositor (>= 0.3.74)
+Conflicts: pleaser
+Breaks: hibr-retro (<< 0.1.8), hibr-browser (<< 0.5.29), longwire (<< 0.5.40), blit (<< 0.3.74)
+Filename: pool/main/h/hibr/hibr_0.99.487-1_amd64.deb
+Size: 2044508
+MD5sum: a3005d41d13a01da5203c3a72ca1cb24
+SHA1: 7e42d81d6669067821fbb1b05a9a7dffbb5386ed
+SHA256: bc4bbcc1cf1e0ffbd0d6106acac08f080f8ea73d21a0434d4928e7d470efff0a
+SHA512: 2e6ab985828915dd249dd685bf8e0d3e080948c6810e377a542442c4a410a872946d0f88c17881cdf82f6e87dd1a0189cb9f66dc504275cf85a5e203debcd5a4
 Homepage: https://github.com/osakka/hibr
 Description: small, fast shell that runs the bash you already write
  hibr runs a large subset of bash -- variables, quoting, functions,
