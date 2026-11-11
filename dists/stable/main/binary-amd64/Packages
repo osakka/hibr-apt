@@ -1,25 +1,5 @@
 Package: blit-compositor
 Architecture: amd64
-Version: 0.3.75-1
-Priority: optional
-Section: x11
-Maintainer: ITD Labs <itdlabs@localhost>
-Depends: blit (= 0.3.75-1), libc6, libwayland-server0, libxkbcommon0
-Recommends: xwayland
-Filename: pool/main/b/blit-compositor/blit-compositor_0.3.75-1_amd64.deb
-Size: 38100
-MD5sum: 34db6334be52196ac0b1da4a86b510a3
-SHA1: 6d258cf350c3746adb8a91836b5cdfb7907ee712
-SHA256: c615778ed8ef7e3271dbf8d6294d5e2f0f79fb0c0c6e284941f66c35d5a6c5c8
-SHA512: 468705ff5a8d39f5317e831d0d092ead5730eb6d6670ac9fd0c42b1d463d5e8adac21ff57f04316a481d3fd5558905ade911c77c247ce6229fb70c8c42710b8f
-Description: Blit's Wayland compositor for programs in Hibr windows
- blit-compositor is the Wayland compositor for the programs of one Blit
- desktop session: each window is a picture on Blit's frame channel, placed
- and sized by the desktop, with keyboard and mouse straight from Blit and
- Blit's keymap (ADR 0228). Xwayland, recommended, is for X11 programs.
-
-Package: blit-compositor
-Architecture: amd64
 Version: 0.3.76-1
 Priority: optional
 Section: x11
@@ -58,6 +38,27 @@ Description: Blit's Wayland compositor for programs in Hibr windows
  and sized by the desktop, with keyboard and mouse straight from Blit and
  Blit's keymap (ADR 0228). Xwayland, recommended, is for X11 programs.
 
+Package: blit-compositor
+Architecture: amd64
+Version: 0.3.78-1
+Priority: optional
+Section: x11
+Maintainer: ITD Labs <itdlabs@localhost>
+Depends: blit (= 0.3.78-1), libc6, libwayland-server0, libxkbcommon0, libxcb1, libxcb-composite0, libxcb-xfixes0, libxcb-res0
+Recommends: xwayland
+Filename: pool/main/b/blit-compositor/blit-compositor_0.3.78-1_amd64.deb
+Size: 50664
+MD5sum: dd94fcd54d01bee255a7d982adbc4e4e
+SHA1: d08740813ffee688d43435b08d5b8a4db5209d84
+SHA256: 36cbe92a8bcfacec23b6a1404a59e845f55033cc68262b30b59f7eba46574402
+SHA512: 6eb3a6c3433855aa79ed988ffe0283f3cae89d350ff0879077155051ebf449aa356949504c6f763639559cb4bd0fd94aef20cd9abb98bc5c027713a263c5abd3
+Description: Blit's Wayland compositor for programs in Hibr windows
+ blit-compositor is the Wayland compositor for the programs of one Blit
+ desktop session: each window is a picture on Blit's frame channel, placed
+ and sized by the desktop, with keyboard and mouse straight from Blit and
+ Blit's keymap (ADR 0228). With Xwayland, recommended, it runs X11
+ programs too, as their window manager.
+
 Package: blit-font-sources
 Architecture: all
 Version: 20120503-1
@@ -74,27 +75,6 @@ Description: Source archive of GNU FreeMono, the origin of Blit Arabic Modern
  The upstream FreeFont 20120503 source archive (GPLv3-or-later with the font
  exception), kept so the complete corresponding source of the Arabic font in
  the blit package stays available without being installed with every Blit.
-
-Package: blit
-Architecture: amd64
-Version: 0.3.75-1
-Priority: optional
-Section: misc
-Maintainer: ITD Labs <itdlabs@localhost>
-Depends: libc6, libdrm2, zlib1g, libfreetype6 (>= 2.12.1), libharfbuzz0b (>= 6.0.0)
-Suggests: hibr, blit-font-sources, blit-compositor
-Breaks: hibr (<< 0.99.482), blit-gamescope, steamer
-Filename: pool/main/b/blit/blit_0.3.75-1_amd64.deb
-Size: 17389024
-MD5sum: a6663cadd6e19799300147900628555e
-SHA1: da660b8c21c08bcef8d847498fc0650c0d9a59b6
-SHA256: 52a597c7a499a75e7b224d660e8b680d5393f96ce95fdcdcd80f97e7e8ba6452
-SHA512: 4cdb183fa8390f31ef6179891866678abc47b2b5445c7efadb4afae326fa17c63d626356c6cbd7a5722a876803be54fdba0e04827b1fa0eaaa2959e8a2e26435
-Description: API-driven native KMS text display server
- Blit provides a text-first display server with one terminal surface per
- physical display or pane, HTTP control, streaming, and Hibr integration.
- Hibr is kept as an explicit external integration because its package and
- desktop session are maintained separately.
 
 Package: blit
 Architecture: amd64
@@ -132,6 +112,27 @@ MD5sum: ee16d6dc49a380d7e0feac79d6cc7422
 SHA1: c3b1499f9ad5cd2fa97bcfae1d7debbcf09718c8
 SHA256: 90afec8bf05d98a61fdd6c8d9db9b7bb22096cefea4ea6d6d40d6c34aa4d57f0
 SHA512: 3f482e05908b29607357f951e2a78bb6c2b8b4b9c9dfffed2e4de64184ff5d403587567c652468245e76f2ff96612578516079d66f25dd874a1820c79b4213d8
+Description: API-driven native KMS text display server
+ Blit provides a text-first display server with one terminal surface per
+ physical display or pane, HTTP control, streaming, and Hibr integration.
+ Hibr is kept as an explicit external integration because its package and
+ desktop session are maintained separately.
+
+Package: blit
+Architecture: amd64
+Version: 0.3.78-1
+Priority: optional
+Section: misc
+Maintainer: ITD Labs <itdlabs@localhost>
+Depends: libc6, libdrm2, zlib1g, libfreetype6 (>= 2.12.1), libharfbuzz0b (>= 6.0.0)
+Suggests: hibr, blit-font-sources, blit-compositor
+Breaks: hibr (<< 0.99.482), blit-gamescope, steamer
+Filename: pool/main/b/blit/blit_0.3.78-1_amd64.deb
+Size: 17397060
+MD5sum: 7740115549d87375c4fcd65a2de96276
+SHA1: 9af8de292bd6dad6be3c98f6106d98948176fb36
+SHA256: 9814992b17509ef767bedecd3bf55f2fe674a270dc32c83b8e88055b8086d205
+SHA512: dd2bcdb6bb88d94c1ba2425820ea65968cc767fc52193e4e5b05b569149248dc6bc8db32464376511eaae664fc40ba3478910c5aa94e2c298167879155f30b8c
 Description: API-driven native KMS text display server
  Blit provides a text-first display server with one terminal surface per
  physical display or pane, HTTP control, streaming, and Hibr integration.
