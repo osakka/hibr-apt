@@ -80,28 +80,6 @@ Description: Source archive of GNU FreeMono, the origin of Blit Arabic Modern
 
 Package: blit
 Architecture: amd64
-Version: 0.3.104-1
-Priority: optional
-Section: misc
-Maintainer: ITD Labs <itdlabs@localhost>
-Depends: libc6, libdrm2, zlib1g, libfreetype6 (>= 2.12.1), libharfbuzz0b (>= 6.0.0), libxkbcommon0 (>= 1.5.0), xkb-data, libx11-data
-Recommends: hibr-ime-arabizi
-Suggests: hibr, blit-font-sources, blit-compositor
-Breaks: hibr (<< 0.99.482), blit-gamescope, steamer
-Filename: pool/main/b/blit/blit_0.3.104-1_amd64.deb
-Size: 17467368
-MD5sum: fdac500c54d8e1701f5dbe7caeea6b09
-SHA1: 7dfeb372039579a1c59ed6ec036942a7b9be6ac8
-SHA256: e2b481e52d89ee01dd90976d758b60461a4aa4866cb3ff54b3b0f80f1c8faa91
-SHA512: bdac4af360a94ed891bf14197e5f568c3482b3c0c6eed74146b0e4410959d565aac412556c1aeff7d567c44d0fad48e1f543656d136a356ee7be56be1f30016a
-Description: API-driven native KMS text display server
- Blit provides a text-first display server with one terminal surface per
- physical display or pane, HTTP control, streaming, and Hibr integration.
- Hibr is kept as an explicit external integration because its package and
- desktop session are maintained separately.
-
-Package: blit
-Architecture: amd64
 Version: 0.3.105-1
 Priority: optional
 Section: misc
@@ -138,6 +116,28 @@ MD5sum: 524ef84cb9a0192f60dbcf1f7a084e8a
 SHA1: 57774ba1606547291e31aa35b9126b52c2700c85
 SHA256: fc1c5096e86d960b006e45cdafee18142eabdd97f08f9c4b287eb33f4a3ca3cc
 SHA512: f78d2af9e73374c28a21af75d617ac47a43ad61c79e5dc21a89e0ada756c583f6f9496f17d1766f7ef8084adf2455f1344767366df92338fe502518ad5c10adb
+Description: API-driven native KMS text display server
+ Blit provides a text-first display server with one terminal surface per
+ physical display or pane, HTTP control, streaming, and Hibr integration.
+ Hibr is kept as an explicit external integration because its package and
+ desktop session are maintained separately.
+
+Package: blit
+Architecture: amd64
+Version: 0.3.107-1
+Priority: optional
+Section: misc
+Maintainer: ITD Labs <itdlabs@localhost>
+Depends: libc6, libdrm2, zlib1g, libfreetype6 (>= 2.12.1), libharfbuzz0b (>= 6.0.0), libxkbcommon0 (>= 1.5.0), xkb-data, libx11-data
+Recommends: hibr-ime-arabizi (>= 0.1.2)
+Suggests: hibr, blit-font-sources, blit-compositor
+Breaks: hibr (<< 0.99.482), blit-gamescope, steamer
+Filename: pool/main/b/blit/blit_0.3.107-1_amd64.deb
+Size: 17476920
+MD5sum: ff5d8c4566ddc47c0bc03a41ca2c85a5
+SHA1: e086a04640ef4e36f3e9e3e7ab6b09e33a946b72
+SHA256: 034bf582eec4c636a0e1a35f0d790aaf75d23766cfd8d306bb66930caa46cf10
+SHA512: 0dc1b7bd89bd0f735dca92a46d5ff0b342e102d3b2711b6e479bd34e7408abb749c6dad7698048fdf38f302f1a6682dc1cbfdc62da530706fcbaffadd60775c6
 Description: API-driven native KMS text display server
  Blit provides a text-first display server with one terminal surface per
  physical display or pane, HTTP control, streaming, and Hibr integration.
