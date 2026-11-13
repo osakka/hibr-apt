@@ -36,6 +36,28 @@ Description: Arabizi for hibr-ime: Arabic typed in Latin letters
  the word lists are CC BY-SA 4.0, derived from Hermit Dave's FrequencyWords
  (OpenSubtitles 2018 counts) -- see /usr/share/doc/hibr-ime-arabizi.
 
+Package: hibr-ime-arabizi
+Architecture: all
+Version: 0.1.2-1
+Priority: optional
+Section: localization
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 2256
+Filename: pool/main/h/hibr-ime-arabizi/hibr-ime-arabizi_0.1.2-1_all.deb
+Size: 667820
+MD5sum: ae328b69dfc3369ac30a1e20210641a3
+SHA1: b03a1658b9233361f92d0f71e93b87fae8725bac
+SHA256: 146e8ece925264fc89a2f25604e8d01e8040ed88f445b5893d185600ff1328eb
+SHA512: 9e6fbc5e280855bfd1c670f4216c3f5983ff2f0fccc334c425e3775638d6e0e67e68005a1f10d8a9463696a6a25bea1123d43e832331133af7bb37bcc937bda9
+Homepage: https://git.home.arpa/itdlabs/hibr-ime
+Description: Arabizi for hibr-ime: Arabic typed in Latin letters
+ The rules and word lists the Arabizi input method reads, for hibr's ime
+ module and for Blit's keyboard alike, and its Control Panel pane: tashkeel,
+ the reading of each Arabizi digit, your own words, and a box to try it in: salam becomes سلام and 3ali علي, read
+ as you type, with tashkeel when asked. The rules are LGPL-3.0-or-later;
+ the word lists are CC BY-SA 4.0, derived from Hermit Dave's FrequencyWords
+ (OpenSubtitles 2018 counts) -- see /usr/share/doc/hibr-ime-arabizi.
+
 Package: hibr-plymouth-theme
 Architecture: all
 Version: 0.1.0
