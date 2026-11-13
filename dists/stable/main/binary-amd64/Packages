@@ -146,42 +146,6 @@ Description: API-driven native KMS text display server
 
 Package: hibr-browser
 Architecture: amd64
-Version: 0.5.34-1
-Priority: optional
-Section: web
-Maintainer: osakka <osakka@gmail.com>
-Installed-Size: 169980
-Depends: hibr (>= 0.99.430), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatomic1 (>= 4.8), libc6 (>= 2.35), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.10.0), libglib2.0-0 (>= 2.70.0), libgpg-error0 (>= 1.14), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-bad1.0-0 (>= 1.22.0), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.22.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), liblcms2-2 (>= 2.2+git20110628), libpng16-16 (>= 1.6.2-1), libseccomp2 (>= 0.0.0~20120605), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.8.7), libssl3 (>= 3.0.0), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwebp7 (>= 1.2.4), libwebpdemux2 (>= 1.2.4), libwebpmux3 (>= 1.2.4), libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.11.dfsg), libgles2, libegl1, bubblewrap, xdg-dbus-proxy, fonts-liberation, fonts-dejavu-core
-Recommends: gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-libav, gstreamer1.0-alsa, gstreamer1.0-nice
-Suggests: pipewire-pulse | pulseaudio
-Filename: pool/main/h/hibr-browser/hibr-browser_0.5.34-1_amd64.deb
-Size: 42271056
-MD5sum: f307ad4ea1e0d116b36f2fb786ec2391
-SHA1: 2149bdb1f6ac9901b6bbcbe0b5e5b3703df5aefd
-SHA256: db839942d3b89aa834fe352ce8ac2b395ba604b8fcb065d1910994dbd5824fc8
-SHA512: aed41cf2364c4af4f02f510be6767e117339f18c49d3ae574ea82cd871bb78cf082ea540318cb4d6666e23668e559b98c13333d26d108da679601be1c6032047
-Homepage: https://git.home.arpa/itdlabs/hibr-browser
-Description: web browser for the hibr desktop, on WPE WebKit
- The engine of hibr's Browser app and a module that gives hibr the `web`
- verbs over it: WPE WebKit 2.54.1, built from upstream, running headless in a
- helper process of its own (no GTK, no X, no Wayland), with JavaScript, a
- JIT, WebAssembly and media source playback. Pages are drawn as pixels,
- as cells, or as text.
- .
- It also carries a second, light engine, hibr-lx (Lexbor for HTML, its own
- cascade and layout in terminal cells, QuickJS-ng for scripts), chosen
- per tab (`web open URL PROFILE lx`) or as the default
- (`web config engine lx`): fast and small, no picture layer, a page as
- text and blocks.
- .
- It is WebKit, not Chrome: no Widevine, no Chrome extensions or sync. The
- Browser app and its settings come from the catalogue
- (`catalogue install apps/browser`), not from this package.
- .
- The module is built for hibr module ABI 17.
-
-Package: hibr-browser
-Architecture: amd64
 Version: 0.5.35-1
 Priority: optional
 Section: web
@@ -232,6 +196,42 @@ MD5sum: daa473633b72789d13522ff6cb1bf221
 SHA1: 9ef87dc5ef2bd1ba9868e0b017486b9b6a1e2a38
 SHA256: f7eb3d50babde19799c606c4f6044fcff418fa12b3895ee7ff75fe1b89c02f4f
 SHA512: 8f8cb1683f8590d90820128b57f06cb44475776f8c736ea5b940c5ddaaf694f7595945d1610659156597df3ff0b05385da8a31a24b117f6ab87677392ab522cb
+Homepage: https://git.home.arpa/itdlabs/hibr-browser
+Description: web browser for the hibr desktop, on WPE WebKit
+ The engine of hibr's Browser app and a module that gives hibr the `web`
+ verbs over it: WPE WebKit 2.54.1, built from upstream, running headless in a
+ helper process of its own (no GTK, no X, no Wayland), with JavaScript, a
+ JIT, WebAssembly and media source playback. Pages are drawn as pixels,
+ as cells, or as text.
+ .
+ It also carries a second, light engine, hibr-lx (Lexbor for HTML, its own
+ cascade and layout in terminal cells, QuickJS-ng for scripts), chosen
+ per tab (`web open URL PROFILE lx`) or as the default
+ (`web config engine lx`): fast and small, no picture layer, a page as
+ text and blocks.
+ .
+ It is WebKit, not Chrome: no Widevine, no Chrome extensions or sync. The
+ Browser app and its settings come from the catalogue
+ (`catalogue install apps/browser`), not from this package.
+ .
+ The module is built for hibr module ABI 17.
+
+Package: hibr-browser
+Architecture: amd64
+Version: 0.5.37-1
+Priority: optional
+Section: web
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 169956
+Depends: hibr (>= 0.99.430), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatomic1 (>= 4.8), libc6 (>= 2.35), libdrm2 (>= 2.4.107), libenchant-2-2 (>= 2.2.3), libepoxy0 (>= 1.3), libexpat1 (>= 2.1~beta3), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.0), libgcrypt20 (>= 1.10.0), libglib2.0-0 (>= 2.70.0), libgpg-error0 (>= 1.14), libgstreamer-gl1.0-0 (>= 1.14.0), libgstreamer-plugins-bad1.0-0 (>= 1.22.0), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.22.0), libharfbuzz-icu0 (>= 0.9.9), libharfbuzz0b (>= 1.8.6), libhyphen0 (>= 2.7.1), liblcms2-2 (>= 2.2+git20110628), libpng16-16 (>= 1.6.2-1), libseccomp2 (>= 0.0.0~20120605), libsoup-3.0-0 (>= 3.0.3), libsqlite3-0 (>= 3.8.7), libssl3 (>= 3.0.0), libstdc++6 (>= 12), libsystemd0, libtasn1-6 (>= 4.14), libwebp7 (>= 1.2.4), libwebpdemux2 (>= 1.2.4), libwebpmux3 (>= 1.2.4), libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.11.dfsg), libgles2, libegl1, bubblewrap, xdg-dbus-proxy, fonts-liberation, fonts-dejavu-core
+Recommends: gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-libav, gstreamer1.0-alsa, gstreamer1.0-nice
+Suggests: pipewire-pulse | pulseaudio
+Filename: pool/main/h/hibr-browser/hibr-browser_0.5.37-1_amd64.deb
+Size: 42262676
+MD5sum: 547613050c7f93aa08d40a7641acaf67
+SHA1: 59f086688e2b983625aa0071a6fa0e0984b4c7cf
+SHA256: 6b32885d4bdd2dfdace52ef008925906713b85edec6f65c58f3d013d429ca90f
+SHA512: d535d5544bca31bca7358864f018e1017cb3f2023393e50acabe4da298d262a319def3418196a890aa75350cf9d7f1c3a21d84fdbca961a9d5dbee643c5722b3
 Homepage: https://git.home.arpa/itdlabs/hibr-browser
 Description: web browser for the hibr desktop, on WPE WebKit
  The engine of hibr's Browser app and a module that gives hibr the `web`
