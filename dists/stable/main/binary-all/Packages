@@ -15,6 +15,27 @@ Description: Source archive of GNU FreeMono, the origin of Blit Arabic Modern
  exception), kept so the complete corresponding source of the Arabic font in
  the blit package stays available without being installed with every Blit.
 
+Package: hibr-ime-arabizi
+Architecture: all
+Version: 0.1.1-1
+Priority: optional
+Section: localization
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 2228
+Filename: pool/main/h/hibr-ime-arabizi/hibr-ime-arabizi_0.1.1-1_all.deb
+Size: 663524
+MD5sum: c789033ab43e7d3988db645b5fb1405c
+SHA1: 6042be8ed5145f530cd39a5a8faf7902b2f49a0a
+SHA256: 897c54168e5eab1c704d34b16081b1f86a0bc22380f24192bf16b40b97955e7c
+SHA512: 2124584a16a48beafa928fe2ec609d1b92d8121a0ca8e2ae0209f8994eeceb2b07bd1f08b11645fc624c017357053ac99f6bc8f96a0e5f81be7b3722316de8a5
+Homepage: https://git.home.arpa/itdlabs/hibr-ime
+Description: Arabizi for hibr-ime: Arabic typed in Latin letters
+ The rules and word lists the Arabizi input method reads, for hibr's ime
+ module and for Blit's keyboard alike: salam becomes سلام and 3ali علي, read
+ as you type, with tashkeel when asked. The rules are LGPL-3.0-or-later;
+ the word lists are CC BY-SA 4.0, derived from Hermit Dave's FrequencyWords
+ (OpenSubtitles 2018 counts) -- see /usr/share/doc/hibr-ime-arabizi.
+
 Package: hibr-plymouth-theme
 Architecture: all
 Version: 0.1.0
