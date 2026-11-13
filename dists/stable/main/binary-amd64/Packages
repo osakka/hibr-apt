@@ -1,26 +1,5 @@
 Package: blit-compositor
 Architecture: amd64
-Version: 0.3.104-1
-Priority: optional
-Section: x11
-Maintainer: ITD Labs <itdlabs@localhost>
-Depends: blit (= 0.3.104-1), libc6, libwayland-server0, libxkbcommon0, libxcb1, libxcb-composite0, libxcb-xfixes0, libxcb-res0, libxcb-randr0
-Recommends: xwayland
-Filename: pool/main/b/blit-compositor/blit-compositor_0.3.104-1_amd64.deb
-Size: 92196
-MD5sum: b772905d49f032816a676ba58974d728
-SHA1: 8bcffaab3ec39119b741a8eb7982566beef52ef1
-SHA256: 80352b3fd9c6453d9aecd4278bfa979ab054ff41b0edf4db0e2cac9a55871aee
-SHA512: 451a398ccb21a32e443ae8d3f65cdf2a8404554c186747a827f590a024535c64e17d02b853bce74313ffd4e92e6ab12529adde795de815abb5b9331670a4a87e
-Description: Blit's Wayland compositor for programs in Hibr windows
- blit-compositor is the Wayland compositor for the programs of one Blit
- desktop session: each window is a picture on Blit's frame channel, placed
- and sized by the desktop, with keyboard and mouse straight from Blit and
- Blit's keymap (ADR 0228). With Xwayland, recommended, it runs X11
- programs too, as their window manager.
-
-Package: blit-compositor
-Architecture: amd64
 Version: 0.3.105-1
 Priority: optional
 Section: x11
@@ -54,6 +33,27 @@ MD5sum: 8ec8223bf86e618285d5784e96ce324f
 SHA1: f2a6bd586ec396a65f6b33d30e796b272fe974c1
 SHA256: c04a04c5e8262c9c6a70d73a5d182545046b677375a34792d47393931e677dab
 SHA512: b320867bbfcfea48eb8008c5da81dd3dcceeb6b69635b4ce4f0bcc0940d95ce2a8d694164f82dbc55cac7f6c953329de7a0da110e6cd56846a60311c56b8a6bb
+Description: Blit's Wayland compositor for programs in Hibr windows
+ blit-compositor is the Wayland compositor for the programs of one Blit
+ desktop session: each window is a picture on Blit's frame channel, placed
+ and sized by the desktop, with keyboard and mouse straight from Blit and
+ Blit's keymap (ADR 0228). With Xwayland, recommended, it runs X11
+ programs too, as their window manager.
+
+Package: blit-compositor
+Architecture: amd64
+Version: 0.3.107-1
+Priority: optional
+Section: x11
+Maintainer: ITD Labs <itdlabs@localhost>
+Depends: blit (= 0.3.107-1), libc6, libwayland-server0, libxkbcommon0, libxcb1, libxcb-composite0, libxcb-xfixes0, libxcb-res0, libxcb-randr0
+Recommends: xwayland
+Filename: pool/main/b/blit-compositor/blit-compositor_0.3.107-1_amd64.deb
+Size: 95200
+MD5sum: 2471e454695d41ee278ee92efdfbd7de
+SHA1: 5230d44a39405aade0d8f66336cbf4eabf11a319
+SHA256: de7417bb44f7f24de464cb84b6f9d04f369bfdf440afb9e4ea6c5af8593ecf72
+SHA512: f7fcc821541458baeef5db9945b88b0b36684ab46a5582c3cf414ff0ac08cb17f86d27c3051cbb7628034833bdd3e0c285cf31abad0c6be351b3cdf51e1dffe7
 Description: Blit's Wayland compositor for programs in Hibr windows
  blit-compositor is the Wayland compositor for the programs of one Blit
  desktop session: each window is a picture on Blit's frame channel, placed
