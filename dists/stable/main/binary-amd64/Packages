@@ -295,31 +295,27 @@ Description: Arabizi for hibr-ime: Arabic typed in Latin letters
  the word lists are CC BY-SA 4.0, derived from Hermit Dave's FrequencyWords
  (OpenSubtitles 2018 counts) -- see /usr/share/doc/hibr-ime-arabizi.
 
-Package: hibr-ime
-Architecture: amd64
-Version: 0.1.1-1
+Package: hibr-ime-arabizi
+Architecture: all
+Version: 0.1.3-1
 Priority: optional
-Section: utils
+Section: localization
 Maintainer: osakka <osakka@gmail.com>
-Installed-Size: 168
-Depends: hibr (>= 0.99.517), libc6
-Recommends: hibr-ime-arabizi
-Filename: pool/main/h/hibr-ime/hibr-ime_0.1.1-1_amd64.deb
-Size: 30580
-MD5sum: c92608cc731e2fed245d9085358bf604
-SHA1: a6a595b4c950106989d0d11ef2fa7024459f01a0
-SHA256: 63f20123d9ffb36655af9c3c9c912fb48df81a2ca381e5690766f679cb70a21e
-SHA512: 0436dd9df56030a86d53a24e5eaf206b76f49f65b9bc6a0b9faaed7d5777e0e1de4f09db32b4017042a604e69fdc3cf05c0a711a5be430858e11603a3d71b4a9
+Installed-Size: 2256
+Filename: pool/main/h/hibr-ime-arabizi/hibr-ime-arabizi_0.1.3-1_all.deb
+Size: 666740
+MD5sum: ebbb7635ed46290c0624c73ec3202e19
+SHA1: 8da155a94a23b4a2efb9cdc427f5bbfcdbe11d10
+SHA256: 9c19d7a42cf582f3f321bced362556c41020ef03a4fd26efcd7d147f1c1a4f84
+SHA512: 0d3d684a855b06d5af8f0a1e00c09ec7c9f83446ac86823537bd64a463760598ed75c5a6df14c69159e1422c811a5b624d78baea1bef98685bc1bbf7e7d3e461
 Homepage: https://git.home.arpa/itdlabs/hibr-ime
-Description: input methods for hibr
- The ime module gives hibr input methods: keys go in, the text held under
- the caret and the text committed come out. The desktop's text fields and
- terminal windows type through it while a method is chosen, and scripts
- can call it (`ime convert arabizi "salam"`). ime-convert is the same
- dry run from the command line.
- .
- Each method's data is a package of its own: hibr-ime-arabizi for Arabic
- typed in Latin letters. The module is built for hibr module ABI 17.
+Description: Arabizi for hibr-ime: Arabic typed in Latin letters
+ The rules and word lists the Arabizi input method reads, for hibr's ime
+ module and for Blit's keyboard alike, and its Control Panel pane: tashkeel,
+ the reading of each Arabizi digit, your own words, and a box to try it in: salam becomes سلام and 3ali علي, read
+ as you type, with tashkeel when asked. The rules are LGPL-3.0-or-later;
+ the word lists are CC BY-SA 4.0, derived from Hermit Dave's FrequencyWords
+ (OpenSubtitles 2018 counts) -- see /usr/share/doc/hibr-ime-arabizi.
 
 Package: hibr-ime
 Architecture: amd64
@@ -362,6 +358,32 @@ MD5sum: b116027b5c2ec730a56581f4930a4353
 SHA1: 008971bceda9bccc7a9ca5a3e5da168800b12bc5
 SHA256: 2638bfce10d67bd6f18f727a2ed6b488c9fe63db02e54ae06967426671f410b0
 SHA512: 66249e902cbdadd81c0a862e544ad3db4b1f065e56e7d7f63ac6bb5289a4f4360321ba327bd481c321aa69e0d2f2854dcb7e8c7e8933be675839e7f37a406660
+Homepage: https://git.home.arpa/itdlabs/hibr-ime
+Description: input methods for hibr
+ The ime module gives hibr input methods: keys go in, the text held under
+ the caret and the text committed come out. The desktop's text fields and
+ terminal windows type through it while a method is chosen, and scripts
+ can call it (`ime convert arabizi "salam"`). ime-convert is the same
+ dry run from the command line.
+ .
+ Each method's data is a package of its own: hibr-ime-arabizi for Arabic
+ typed in Latin letters. The module is built for hibr module ABI 17.
+
+Package: hibr-ime
+Architecture: amd64
+Version: 0.1.3-1
+Priority: optional
+Section: utils
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 188
+Depends: hibr (>= 0.99.521), libc6
+Recommends: hibr-ime-arabizi
+Filename: pool/main/h/hibr-ime/hibr-ime_0.1.3-1_amd64.deb
+Size: 34532
+MD5sum: cc5babffce332d520bcff77be1306792
+SHA1: b63f44804c489e5920a6f46ab880e3bba16a3fe3
+SHA256: 20e7b76b4ce578770f0d0e9987354171ec9312a3c262a724d541b05cbd7955e0
+SHA512: 4ed91d8b96045329b226b131a1075de8526ffa7bd7af0556bf7287489595924934a6788297ed30986edcadf162173843ce316b63a327f0455dfbde764e3ec004
 Homepage: https://git.home.arpa/itdlabs/hibr-ime
 Description: input methods for hibr
  The ime module gives hibr input methods: keys go in, the text held under
