@@ -347,6 +347,32 @@ Description: input methods for hibr
  Each method's data is a package of its own: hibr-ime-arabizi for Arabic
  typed in Latin letters. The module is built for hibr module ABI 17.
 
+Package: hibr-ime
+Architecture: amd64
+Version: 0.1.2-2
+Priority: optional
+Section: utils
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 188
+Depends: hibr (>= 0.99.520), libc6
+Recommends: hibr-ime-arabizi
+Filename: pool/main/h/hibr-ime/hibr-ime_0.1.2-2_amd64.deb
+Size: 34312
+MD5sum: b116027b5c2ec730a56581f4930a4353
+SHA1: 008971bceda9bccc7a9ca5a3e5da168800b12bc5
+SHA256: 2638bfce10d67bd6f18f727a2ed6b488c9fe63db02e54ae06967426671f410b0
+SHA512: 66249e902cbdadd81c0a862e544ad3db4b1f065e56e7d7f63ac6bb5289a4f4360321ba327bd481c321aa69e0d2f2854dcb7e8c7e8933be675839e7f37a406660
+Homepage: https://git.home.arpa/itdlabs/hibr-ime
+Description: input methods for hibr
+ The ime module gives hibr input methods: keys go in, the text held under
+ the caret and the text committed come out. The desktop's text fields and
+ terminal windows type through it while a method is chosen, and scripts
+ can call it (`ime convert arabizi "salam"`). ime-convert is the same
+ dry run from the command line.
+ .
+ Each method's data is a package of its own: hibr-ime-arabizi for Arabic
+ typed in Latin letters. The module is built for hibr module ABI 17.
+
 Package: hibr-plymouth-theme
 Architecture: all
 Version: 0.1.0
