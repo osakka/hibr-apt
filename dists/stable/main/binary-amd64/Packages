@@ -254,28 +254,6 @@ Description: web browser for the hibr desktop, on WPE WebKit
 
 Package: hibr-ime-arabizi
 Architecture: all
-Version: 0.1.2-1
-Priority: optional
-Section: localization
-Maintainer: osakka <osakka@gmail.com>
-Installed-Size: 2256
-Filename: pool/main/h/hibr-ime-arabizi/hibr-ime-arabizi_0.1.2-1_all.deb
-Size: 667820
-MD5sum: ae328b69dfc3369ac30a1e20210641a3
-SHA1: b03a1658b9233361f92d0f71e93b87fae8725bac
-SHA256: 146e8ece925264fc89a2f25604e8d01e8040ed88f445b5893d185600ff1328eb
-SHA512: 9e6fbc5e280855bfd1c670f4216c3f5983ff2f0fccc334c425e3775638d6e0e67e68005a1f10d8a9463696a6a25bea1123d43e832331133af7bb37bcc937bda9
-Homepage: https://git.home.arpa/itdlabs/hibr-ime
-Description: Arabizi for hibr-ime: Arabic typed in Latin letters
- The rules and word lists the Arabizi input method reads, for hibr's ime
- module and for Blit's keyboard alike, and its Control Panel pane: tashkeel,
- the reading of each Arabizi digit, your own words, and a box to try it in: salam becomes سلام and 3ali علي, read
- as you type, with tashkeel when asked. The rules are LGPL-3.0-or-later;
- the word lists are CC BY-SA 4.0, derived from Hermit Dave's FrequencyWords
- (OpenSubtitles 2018 counts) -- see /usr/share/doc/hibr-ime-arabizi.
-
-Package: hibr-ime-arabizi
-Architecture: all
 Version: 0.1.3-1
 Priority: optional
 Section: localization
@@ -318,31 +296,27 @@ Description: Arabizi for hibr-ime: Arabic typed in Latin letters
  the word lists are CC BY-SA 4.0, derived from Hermit Dave's FrequencyWords
  (OpenSubtitles 2018 counts) -- see /usr/share/doc/hibr-ime-arabizi.
 
-Package: hibr-ime
-Architecture: amd64
-Version: 0.1.2-2
+Package: hibr-ime-arabizi
+Architecture: all
+Version: 0.1.5-1
 Priority: optional
-Section: utils
+Section: localization
 Maintainer: osakka <osakka@gmail.com>
-Installed-Size: 188
-Depends: hibr (>= 0.99.520), libc6
-Recommends: hibr-ime-arabizi
-Filename: pool/main/h/hibr-ime/hibr-ime_0.1.2-2_amd64.deb
-Size: 34312
-MD5sum: b116027b5c2ec730a56581f4930a4353
-SHA1: 008971bceda9bccc7a9ca5a3e5da168800b12bc5
-SHA256: 2638bfce10d67bd6f18f727a2ed6b488c9fe63db02e54ae06967426671f410b0
-SHA512: 66249e902cbdadd81c0a862e544ad3db4b1f065e56e7d7f63ac6bb5289a4f4360321ba327bd481c321aa69e0d2f2854dcb7e8c7e8933be675839e7f37a406660
+Installed-Size: 2260
+Filename: pool/main/h/hibr-ime-arabizi/hibr-ime-arabizi_0.1.5-1_all.deb
+Size: 668376
+MD5sum: cf42e3c817d0c46550b351d176ada87e
+SHA1: ecbe96c6aa02b51b279784155d7a651f1455c714
+SHA256: ba6339a5212c617c5fd5c063a8effa79b2f600980ad28fae93cb233f090917a2
+SHA512: 7060fae1b0a42bdea2e26ffe025a432c2ac24fabd212818370d44bc13a97370e0793a918c974ae377f744a8066b035efddbb077845269556701faa06f997e3ae
 Homepage: https://git.home.arpa/itdlabs/hibr-ime
-Description: input methods for hibr
- The ime module gives hibr input methods: keys go in, the text held under
- the caret and the text committed come out. The desktop's text fields and
- terminal windows type through it while a method is chosen, and scripts
- can call it (`ime convert arabizi "salam"`). ime-convert is the same
- dry run from the command line.
- .
- Each method's data is a package of its own: hibr-ime-arabizi for Arabic
- typed in Latin letters. The module is built for hibr module ABI 17.
+Description: Arabizi for hibr-ime: Arabic typed in Latin letters
+ The rules and word lists the Arabizi input method reads, for hibr's ime
+ module and for Blit's keyboard alike, and its Control Panel pane: tashkeel,
+ the reading of each Arabizi digit, your own words, and a box to try it in: salam becomes سلام and 3ali علي, read
+ as you type, with tashkeel when asked. The rules are LGPL-3.0-or-later;
+ the word lists are CC BY-SA 4.0, derived from Hermit Dave's FrequencyWords
+ (OpenSubtitles 2018 counts) -- see /usr/share/doc/hibr-ime-arabizi.
 
 Package: hibr-ime
 Architecture: amd64
@@ -385,6 +359,32 @@ MD5sum: bcc47781a044f42dde2fec2ea17a3050
 SHA1: 8c9999de5463e72140ac8af9025ed686e02888bc
 SHA256: 9b8315e5d3ffad28581ab2792768e8cf1462d375c07ec405e429c138a7983429
 SHA512: 2ff28ddea3a5bd59345e86640b2699aac754735edbb84edaa9537cc45bf37ba80cb8c52bc50048a3559941a3916cedc0cad8a3bb41748214169a8d6c053290bd
+Homepage: https://git.home.arpa/itdlabs/hibr-ime
+Description: input methods for hibr
+ The ime module gives hibr input methods: keys go in, the text held under
+ the caret and the text committed come out. The desktop's text fields and
+ terminal windows type through it while a method is chosen, and scripts
+ can call it (`ime convert arabizi "salam"`). ime-convert is the same
+ dry run from the command line.
+ .
+ Each method's data is a package of its own: hibr-ime-arabizi for Arabic
+ typed in Latin letters. The module is built for hibr module ABI 17.
+
+Package: hibr-ime
+Architecture: amd64
+Version: 0.1.5-1
+Priority: optional
+Section: utils
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 224
+Depends: hibr (>= 0.99.527), libc6
+Recommends: hibr-ime-arabizi
+Filename: pool/main/h/hibr-ime/hibr-ime_0.1.5-1_amd64.deb
+Size: 41772
+MD5sum: 376daeac8b70d31c1809900a55647277
+SHA1: f21cd9801986cc266080f5f399f78c866f10ef98
+SHA256: f3b925fe97728dcaea67c8892794d340bc916347491263b6290a75680a251649
+SHA512: 1386c769a12b6f99c06df2309051bd184a71838a083a3bd438ac81b66456cbaee64b32fa45d7cec055f59259dd8e76248dd0fd3a57a8550c054595fa8808d2a5
 Homepage: https://git.home.arpa/itdlabs/hibr-ime
 Description: input methods for hibr
  The ime module gives hibr input methods: keys go in, the text held under

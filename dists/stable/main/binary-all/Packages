@@ -17,28 +17,6 @@ Description: Source archive of GNU FreeMono, the origin of Blit Arabic Modern
 
 Package: hibr-ime-arabizi
 Architecture: all
-Version: 0.1.2-1
-Priority: optional
-Section: localization
-Maintainer: osakka <osakka@gmail.com>
-Installed-Size: 2256
-Filename: pool/main/h/hibr-ime-arabizi/hibr-ime-arabizi_0.1.2-1_all.deb
-Size: 667820
-MD5sum: ae328b69dfc3369ac30a1e20210641a3
-SHA1: b03a1658b9233361f92d0f71e93b87fae8725bac
-SHA256: 146e8ece925264fc89a2f25604e8d01e8040ed88f445b5893d185600ff1328eb
-SHA512: 9e6fbc5e280855bfd1c670f4216c3f5983ff2f0fccc334c425e3775638d6e0e67e68005a1f10d8a9463696a6a25bea1123d43e832331133af7bb37bcc937bda9
-Homepage: https://git.home.arpa/itdlabs/hibr-ime
-Description: Arabizi for hibr-ime: Arabic typed in Latin letters
- The rules and word lists the Arabizi input method reads, for hibr's ime
- module and for Blit's keyboard alike, and its Control Panel pane: tashkeel,
- the reading of each Arabizi digit, your own words, and a box to try it in: salam becomes سلام and 3ali علي, read
- as you type, with tashkeel when asked. The rules are LGPL-3.0-or-later;
- the word lists are CC BY-SA 4.0, derived from Hermit Dave's FrequencyWords
- (OpenSubtitles 2018 counts) -- see /usr/share/doc/hibr-ime-arabizi.
-
-Package: hibr-ime-arabizi
-Architecture: all
 Version: 0.1.3-1
 Priority: optional
 Section: localization
@@ -72,6 +50,28 @@ MD5sum: 7bbe14c864ea44a048d9cefadb5c128e
 SHA1: f188f9bfec70293c39541dbd0a396e18d26c7262
 SHA256: 965d509a56ce278314691292d821392f60d96284359da560efb42e4a48439781
 SHA512: 2edbede1f46a4d30e477689d4639d57a761fc4751ed2954588cc8a1e6e171816ec6a22fc03caf2fc63010e10ec265fc79c8ea19955568e59fda11d7a6f55c964
+Homepage: https://git.home.arpa/itdlabs/hibr-ime
+Description: Arabizi for hibr-ime: Arabic typed in Latin letters
+ The rules and word lists the Arabizi input method reads, for hibr's ime
+ module and for Blit's keyboard alike, and its Control Panel pane: tashkeel,
+ the reading of each Arabizi digit, your own words, and a box to try it in: salam becomes سلام and 3ali علي, read
+ as you type, with tashkeel when asked. The rules are LGPL-3.0-or-later;
+ the word lists are CC BY-SA 4.0, derived from Hermit Dave's FrequencyWords
+ (OpenSubtitles 2018 counts) -- see /usr/share/doc/hibr-ime-arabizi.
+
+Package: hibr-ime-arabizi
+Architecture: all
+Version: 0.1.5-1
+Priority: optional
+Section: localization
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 2260
+Filename: pool/main/h/hibr-ime-arabizi/hibr-ime-arabizi_0.1.5-1_all.deb
+Size: 668376
+MD5sum: cf42e3c817d0c46550b351d176ada87e
+SHA1: ecbe96c6aa02b51b279784155d7a651f1455c714
+SHA256: ba6339a5212c617c5fd5c063a8effa79b2f600980ad28fae93cb233f090917a2
+SHA512: 7060fae1b0a42bdea2e26ffe025a432c2ac24fabd212818370d44bc13a97370e0793a918c974ae377f744a8066b035efddbb077845269556701faa06f997e3ae
 Homepage: https://git.home.arpa/itdlabs/hibr-ime
 Description: Arabizi for hibr-ime: Arabic typed in Latin letters
  The rules and word lists the Arabizi input method reads, for hibr's ime
