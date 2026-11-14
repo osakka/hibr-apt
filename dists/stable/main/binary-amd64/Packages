@@ -695,31 +695,6 @@ Description: layer-2 mesh VPN engine for hibr, with post-quantum handshakes
 
 Package: wiretap
 Architecture: amd64
-Version: 0.7.1-1
-Priority: optional
-Section: net
-Maintainer: osakka <osakka@gmail.com>
-Installed-Size: 420
-Depends: libc6 (>= 2.38), hibr (>= 0.99.430)
-Recommends: systemd, nftables
-Filename: pool/main/w/wiretap/wiretap_0.7.1-1_amd64.deb
-Size: 78144
-MD5sum: 9a11b45e43820386554860c008b0e39e
-SHA1: 36904442542ba64454c9718f7fc7be6fab284698
-SHA256: ad062de6eba334d1210cf44a9f8eb2b639492391051d6762171f7adfd6455ce9
-SHA512: d2c73918523408eed69d42ec84c2e3324f2d6a836d13b4346a4aa0653840542d0bb571c0f24009cba668122da0aba04db409a942fc99187ba01ac7cf01e9da23
-Description: network monitor for the hibr desktop: see every byte, per app
- wiretap shows what your machine sends and receives: live graphs, the
- busiest apps, history over a minute to a week, on the hibr desktop (a
- drop-down on the menu bar, a Control Panel pane, a Control Strip module and
- a window) and on the command line. A service counts the interface traffic,
- captures packets read-only and joins each flow to the program that owns it.
- .
- This package is the engine (a hibr module), the launcher and the service.
- The scripts come from hibr's catalogue: `catalogue install wiretap`.
-
-Package: wiretap
-Architecture: amd64
 Version: 0.7.2-1
 Priority: optional
 Section: net
@@ -758,6 +733,31 @@ MD5sum: c7b9efd89f6408ea96c949ee2998f533
 SHA1: 42513cc0feaf25ecefee6b56e050532a2156479e
 SHA256: 8b68333dbab6f93d25f1ab331c4bed1a432b9fddecaa092e602f927c40a85914
 SHA512: 575d11f6a800bc149b3d4f8749ca3a8cb2b191950dfc69a1668e4bd897faee6f38ded396d2e76a2c25c9bc51f833c2ccc05b649cdd2b2ae34c6e442658b75237
+Description: network monitor for the hibr desktop: see every byte, per app
+ wiretap shows what your machine sends and receives: live graphs, the
+ busiest apps, history over a minute to a week, on the hibr desktop (a
+ drop-down on the menu bar, a Control Panel pane, a Control Strip module and
+ a window) and on the command line. A service counts the interface traffic,
+ captures packets read-only and joins each flow to the program that owns it.
+ .
+ This package is the engine (a hibr module), the launcher and the service.
+ The scripts come from hibr's catalogue: `catalogue install wiretap`.
+
+Package: wiretap
+Architecture: amd64
+Version: 0.7.4-1
+Priority: optional
+Section: net
+Maintainer: osakka <osakka@gmail.com>
+Installed-Size: 432
+Depends: libc6 (>= 2.38), hibr (>= 0.99.430)
+Recommends: systemd, nftables
+Filename: pool/main/w/wiretap/wiretap_0.7.4-1_amd64.deb
+Size: 80096
+MD5sum: 1c77a2c11d09601a12037391d588b8b8
+SHA1: 2cc01edba1bcb9d367ab791c2013fd3fbb542d68
+SHA256: a7b667f78d6b4ed6b8448bab584ad7b2292520eebf258debefeccfd919d11a17
+SHA512: 3bd1141d35881fd4966cc985629a25f4885a0f2a0168cd98f5c25d5beb4c80eb9d162e6e40edfd6ab8bddb7db1a9f9f50b125c5639374f8b6d52880ca37f574b
 Description: network monitor for the hibr desktop: see every byte, per app
  wiretap shows what your machine sends and receives: live graphs, the
  busiest apps, history over a minute to a week, on the hibr desktop (a
